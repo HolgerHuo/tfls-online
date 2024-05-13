@@ -1,0 +1,90 @@
+title = "天津外国语大学附属外国语学校(镜像)"
+description = "天津外国语大学附属外国语学校的镜像网站 (由TFLS Online运营)"
+images = ["cover.jpg"]
+
+mainSections = ["docs", "blog", "by-tfls-online"]
+
+# Doks (@hyas/doks-core)
+[doks]
+  colorMode = "auto"
+  colorModeToggler = true
+
+  navbarSticky = false
+
+  containerBreakpoint = "lg" # "", "sm", "md", "lg" (default), "xl", "xxl", or "fluid"
+
+  navBarButton = false
+
+  alert = true 
+  alertDismissable = true
+
+  bootstrapJavascript = false
+
+  # Nav
+  sectionNav = ["docs", "students", "teachers"]
+  toTopButton = true
+  breadcrumbTrail = true
+  headlineHash = true
+  scrollSpy = true
+
+  # Multilingual
+  multilingualMode = false
+  showMissingLanguages = true
+
+  # Versioning
+  docsVersioning = false
+
+  relatedPosts = true
+  imageSingle = true
+
+  editPage = false
+
+  # SCSS colors
+  # backGround = "yellowgreen"
+  ## Dark theme
+  # textDark = "#dee2e6" # "#dee2e6" (default), "#dee2e6" (orignal), or custom color
+  # accentDark = "#5d2f86" # "#5d2f86" (default), "#5d2f86" (original), or custom color
+  ## Light theme
+  # textLight = "#1d2d35" # "#1d2d35" (default), "#1d2d35" (orignal), or custom color
+  # accentLight = "#8ed6fb" # "#8ed6fb" (default), "#8ed6fb" (orignal), or custom color
+
+  [doks.menu]
+    [doks.menu.section]
+      auto = true
+      collapsibleSidebar = true
+
+[render_hooks.image]
+  errorLevel = 'ignore' # ignore (default), warning, or error (fails the build)
+
+[render_hooks.link]
+  errorLevel = 'ignore' # ignore (default), warning, or error (fails the build)
+  highlightBroken = false # true or false (default)
+
+[hyas_images]
+  [hyas_images.defaults]
+    decoding = "async"
+    fetchpriority = "auto"
+    loading = "lazy"
+    widths = [480, 576, 768, 1025, 1200, 1440]
+    sizes = "auto" 
+    process = ""
+    lqip = "16x webp q20"
+
+[inline_svg]
+  iconSetDir = "tabler-icons"
+
+[seo]
+  [seo.title]
+    separator = " | "
+    suffix = ""
+  [seo.favicons]
+    sizes = []
+    icon = "favicon.png"
+  [seo.schemas]
+    type = "Organization"
+    logo = "favicon.png" 
+    name = "TFLS Online" 
+    sameAs = ["https://mast.dragon-fly.club/@tfls-online"] 
+    images = ["cover.png"] 
+    article = ["blog"]
+    blogPosting = ["blog"]

@@ -1,0 +1,28 @@
+{{- $contentPath := "" }}
+{{- with .Page.File }}
+  {{- $contentPath = .Path }}
+{{- else }}
+  {{- $contentPath = .Path }}
+{{- end }}
+
+{{- $u := urls.Parse .Destination }}
+
+{{- /* Determine id attribute. */}}
+{{- $id := printf "h-rh-i-%d" .Ordinal }}
+{{- with .Attributes.id }}
+  {{- $id = . }}
+{{- end }}
+
+{{- /* Render image element. */ -}}
+<img
+  src="{{ $u }}"
+  style="display:block;margin-left:auto;margin-right:auto;"
+  decoding="{{ site.Params.hyas_images.defaults.decoding }}"
+  fetchpriority="{{ site.Params.hyas_images.defaults.fetchpriority }}"
+  loading="{{ site.Params.hyas_images.defaults.loading }}"
+  alt="{{ .PlainText }}"
+  {{- with .Title -}}title="{{ . }}"{{- end -}}
+  id="{{ $id }}"
+/>
+
+{{- /**/ -}}

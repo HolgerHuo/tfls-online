@@ -1,0 +1,9 @@
+[zh-Hans]
+  languageName = "中文"
+  contentDir = "content"
+  weight = 10
+  [zh-Hans.params]
+    languageISO = "ZH"
+    languageTag = "zh-Hans"
+    footer = '由<a href="https://tfls.online/about">云上小外</a>运营'
+    alertText = '<span style="font-family: var(--bs-body-font-family)">请注意！本站点为天津外国语大学附属外国语学校的镜像站点，官方站点请访问：<a class="alert-link stretched-link fw-normal" target="_blank" href="http://tfls.tj.edu.cn">http://tfls.tj.edu.cn</a></span>'

@@ -1,0 +1,30 @@
+{{/* Put your custom <script></script> tags here */}}
+
+{{ if eq (hugo.Environment) "production" -}}
+  {{ partial "footer/esbuild" (dict "src" "js/instantpage.js" "load" "async" "transpile" false) -}}
+  <!-- Matomo JS Tracker -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//stats.yingmoy.com/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '3']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+  <script defer data-domain="tfls.online" src="https://report.dragoncloud.win/js/script.outbound-links.file-downloads.tagged-events.js"></script>
+  <noscript>
+    <link rel="stylesheet" href="https://cdn.dragoncloud.win/tfls-online/assets/css/noscript.css" />
+  <!-- Matomo Image Tracker--><img referrerpolicy="no-referrer-when-downgrade" src="https://stats.yingmoy.com/matomo.php?idsite=3&amp;rec=1" style="border:0" alt="" />
+  </noscript>
+{{ end -}}
+
+{{/* EXAMPLE - only load script for a page type e.g. contact or gallery
+{{ if eq .Type "gallery" -}}
+  {{ partial "footer/esbuild" (dict "src" "js/gallery.js" "load" "async" "transpile" false) -}}
+{{ end -}}
+*/}}

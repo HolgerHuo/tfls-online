@@ -1,0 +1,84 @@
+title = "天津外国语大学附属外国语学校(镜像)"
+baseurl = "https://tfls.online/"
+canonifyURLs = false
+disableAliases = false
+disableHugoGeneratorInject = true
+enableEmoji = true
+enableGitInfo = false
+enableRobotsTXT = true
+languageCode = "zh-Hans"
+paginate = 10
+rssLimit = 10
+summarylength = 20
+
+defaultContentLanguage = "zh-Hans"
+defaultContentLanguageInSubdir = false
+
+copyRight = "Copyright (c) 1964-2024 TFLS"
+
+[build.buildStats]
+  enable = true
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML", "RSS", "SITEMAP"]
+
+[outputFormats.SITEMAP]
+  mediaType = "application/xml"
+  baseName = "sitemap"
+  isHTML = false
+  isPlainText = true
+  noUgly = true
+  rel  = "sitemap"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[caches]
+  [caches.getjson]
+    dir = ":cacheDir/:project"
+    maxAge = -1 # "30m"
+
+[taxonomies]
+  categories = "categories"
+  tags = "tags"
+
+[permalinks]
+  blog = "/posts/:slug/"
+  docs = "/about-tfls/:sections[1:]/:slug/"
+  by-tfls-online = "/:slug/"
+  students = "/tflser/students/:slug/"
+  teachers = "/tflser/teachers/:slug/"
+  categories = "/posts/:slug"
+
+[permalinks.section]
+  docs = "/about-tfls/:sections[1:]"
+  blog = "/posts"
+  students = "/tflser/students"
+  teachers = "/tflser/teachers"
+
+[minify.tdewolff.html]
+  keepWhitespace = false
+
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = false
+    [[related.indices]]
+      name = "category"
+      weight = 100
+    [[related.indices]]
+      name = "tags"
+      weight = 80
+    [[related.indices]]
+      name = "date"
+      weight = 10
+
+[imaging]
+  anchor = "Center"
+  bgColor = "#ffffff"
+  hint = "photo"
+  quality = 85
+  resampleFilter = "Lanczos"

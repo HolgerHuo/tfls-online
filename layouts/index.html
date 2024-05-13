@@ -1,0 +1,146 @@
+{{ define "main" }}
+<section class="section container-fluid mt-n3 pb-3">
+  <div class="row justify-content-center">
+    <div class="col-lg-12 text-center">
+      <h1 class="d-none d-xl-block">天津外国语大学附属外国语学校</h1>
+      <h1 class="d-xl-none d-block">小外</h1>
+    </div>
+    <div class="col-lg-9 col-xl-8 text-center">
+      <p class="lead">
+        <span><span class="d-none d-xl-inline-block">天津外国语大学附属外国语学校</span><span class="d-xl-none d-inline-block">小外</span>的<b>非官方</b>网站</span>
+      </p>
+      <p>由云上小外运营</p>
+      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/about" role="button">关于我们</a>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-prefooter" }}
+  <section class="section section-md container-fluid bg-light">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-7">
+        <h2 class="mt-2">关于小外</h2>
+          <p style="text-indent: 2em;">学校创建于1964年，时名天津市外国语学校，是在周恩来总理亲自关怀批示下创建的全国首批外国语学校之一，郭沫若题写校名。1978年，学校划归天津外国语学院领导，更名为天津外国语学院附属外国语学校；2010年，天津外国语学院更名为天津外国语大学，学校随之更名为天津外国语大学附属外国语学校。
+          </p>
+        <a class="btn btn-secondary rounded-pill px-4 my-2" href="/about-tfls/school/summary/" role="button">了解更多</a>
+      </div>
+    </div>
+  </section>
+  <section class="section section-md section-features">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-6">
+          <h2 class="h4">校园生活</h2>
+          {{ with first 5 (where .Site.RegularPages "Params.Categories" "intersect" (slice "学生之窗")) }}
+            {{ range . }}
+              <div style="width:fit-content;max-width:100%;margin:auto;">
+                <a href="{{.RelPermalink}}" class="text-muted d-xl-block d-none" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width: 100%">{{ .Title }}</a>
+                <a href="{{.RelPermalink}}" class="text-muted small d-block d-xl-none" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width: 100%">{{ .Title }}</a>
+                <hr class="my-1" style="border-top: dotted 1px;" />
+              </div>
+            {{ end }}
+          {{ end }}
+          <a class="btn btn-outline-secondary btn-sm rounded-pill px-6 my-1" href="/posts/students" role="button">阅读更多</a>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="h4">教学科研</h2>
+          {{ with first 5 (where .Site.RegularPages "Params.Categories" "intersect" (slice "教学科研")) }}
+            {{ range . }}
+              <div style="width:fit-content;max-width:100%;margin:auto;">
+                <a href="{{.RelPermalink}}" class="text-muted d-xl-block d-none" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width: 100%">{{ .Title }}</a>
+                <a href="{{.RelPermalink}}" class="text-muted small d-block d-xl-none" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width: 100%">{{ .Title }}</a>
+                <hr class="my-1" style="border-top: dotted 1px;" />
+              </div>
+          {{ end }}
+        {{ end }}
+        <a class="btn btn-outline-secondary btn-sm rounded-pill px-6 my-1" href="/posts/students" role="button">阅读更多</a>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="h4">对外交流</h2>
+          {{ with first 5 (where .Site.RegularPages "Params.Categories" "intersect" (slice "对外交流")) }}
+            {{ range . }}
+              <div style="width:fit-content;max-width:100%;margin:auto;">
+                <a href="{{.RelPermalink}}" class="text-muted d-xl-block d-none" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width: 100%">{{ .Title }}</a>
+                <a href="{{.RelPermalink}}" class="text-muted small d-block d-xl-none" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width: 100%">{{ .Title }}</a>
+                <hr class="my-1" style="border-top: dotted 1px;" />
+              </div>
+          {{ end }}
+        {{ end }}
+        <a class="btn btn-outline-secondary btn-sm rounded-pill px-6 my-1" href="/posts/students" role="button">阅读更多</a>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="h4">小外招生</h2>
+          {{ with first 5 (where .Site.RegularPages "Params.Categories" "intersect" (slice "招生信息")) }}
+            {{ range . }}
+              <div style="width:fit-content;max-width:100%;margin:auto;">
+                <a href="{{.RelPermalink}}" class="text-muted d-xl-block d-none" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width: 100%">{{ .Title }}</a>
+                <a href="{{.RelPermalink}}" class="text-muted small d-block d-xl-none" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width: 100%">{{ .Title }}</a>
+                <hr class="my-1" style="border-top: dotted 1px;" />
+              </div>
+            {{ end }}
+          {{ end }}
+          <a class="btn btn-outline-secondary btn-sm rounded-pill px-6 my-1" href="/posts/students" role="button">阅读更多</a>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
+
+{{ define "sidebar-footer" }}
+<section class="section section-md container-fluid bg-light">
+  <div class="row justify-content-center text-center">
+    <div class="col-lg-7">
+      <h2 class="mt-2">TFLS Wiki</h2>
+      TFLSWiki 是一个专门为TFLS打造的Wiki知识库，记录了有关老师、学生、社团、活动、地点等信息，欢迎各位小外学子前往贡献！
+      <br>
+      <a class="btn btn-outline-primary my-3" target="_blank" href="https://wiki.tfls.online" role="button">进入 TFLS Wiki</a>
+    </div>
+  </div>
+</section>
+<section class="section section-md container-fluid">
+  <style>
+    dl {
+        margin: 0 0 2em 0;
+    }
+    dl dt {
+        display: block;
+        width: 3em;
+        margin: 0;
+        clear: left;
+        float: left;
+    }
+    dl dd {
+        margin: 0 0 0.85em 2.5em;
+        text-align: left;
+    }
+    dl:after {
+        content: '';
+        display: block;
+        clear: both;
+    }
+  </style>
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-6">
+        <h3 class="mt-2">微信公众账号</h2>
+        <img src="https://cdn.tfls.online/tfls-online/wx.jpg" style="height: 7rem" class="mb-4"></img>
+      </div>
+      <div class="col-lg-6">
+        <h3 class="mt-2">联系方式</h2>
+        <dl>
+          <dt>地址</dt>
+          <dd>天津市河北区南口路11号 邮编：300230</dd>
+          <dt>电话</dt>
+          <dd>+86 (022) 2629 5658</dd>
+          <dt>电邮</dt>
+          <dd><a href="mailto:principal@tfls.cn" target="_blank">principal@tfls.cn</a></dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="d-flex justify-content-start">
+  <div class="bg-dots"></div>
+</div>
+{{ end }}

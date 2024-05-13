@@ -1,0 +1,130 @@
+[[main]]
+  name = "关于小外"
+  url = "/about-tfls/school/summary/"
+  weight = 10
+ 
+[[main]]
+  identifier = "posts"
+  name = "文章分类"
+  weight = 20
+
+[[main]]
+  parent = "posts"
+  url = "/posts/news/"
+  name = "校园动态"
+  weight = 30 
+
+[[main]]
+  parent = "posts"
+  url = "/posts/moral/"
+  name = "学生工作"
+  weight = 10
+
+[[main]]
+  parent = "posts"
+  url = "/posts/research/"
+  name = "教学科研"
+  weight = 20
+  
+[[main]]
+  parent = "posts"
+  url = "/posts/students/"
+  name = "校园生活"
+  weight = 30
+
+[[main]]
+  parent = "posts"
+  url = "/posts/external/"
+  name = "对外交流"
+  weight = 40
+
+[[main]]
+  parent = "posts"
+  url = "/posts/international/"
+  name = "AP课程中心"
+  weight = 50
+
+[[main]]
+  parent = "posts"
+  url = "/posts/partypolicy/"
+  name = "党团工作"
+  weight = 70
+
+[[main]]
+  parent = "posts"
+  url = "/posts/alumni/"
+  name = "校友之家"
+  weight = 75
+
+[[main]]
+  parent = "posts"
+  url = "/posts/tcenter/"
+  name = "培训中心"
+  weight = 90
+
+[[main]]
+  identifier = "tflser"
+  name = "小外风采"
+  weight = 25
+
+[[main]]
+  parent = "tflser"
+  url = "/tflser/students"
+  name = "优秀学子"
+  weight = 10
+
+[[main]]
+  parent = "tflser"
+  url = "/tflser/teachers"
+  name = "优秀教师"
+  weight = 20
+
+[[main]]
+  identifier = "announcements"
+  name = "通知信息"
+  weight = 20
+
+[[main]]
+  parent = "announcements"
+  url = "/posts/admission/"
+  name = "小升初"
+  weight = 60
+
+[[main]]
+  parent = "announcements"
+  url = "/posts/publicaffair/"
+  name = "公开文件"
+  weight = 80
+
+[[main]]
+  parent = "announcements"
+  url = "/posts/recruitment/"
+  name = "招聘信息"
+  weight = 100
+
+[[main]]
+  name = "全部动态"
+  url = "/posts/"
+  weight = 30
+
+[[main]]
+  name = "关于我们"
+  url = "/about/"
+  weight = 40
+
+[[social]]
+  name = "GitHub"
+  pre = '<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg>'
+  url = "https://github.com/holgerhuo/tfls-online"
+  #post = "v0.1.0"
+  weight = 30
+
+[[footer]]
+  name = "关于TFLS Online"
+  url = "https://tfls.online/about"
+  weight = 10
+
+[[footer]]
+  name = "TFLS Wiki"
+  url = "https://wiki.tfls.online/?utm_source=tfls-mirror&utm_medium=footer&utm_campaign=tfls-mirror"
+  weight = 11
