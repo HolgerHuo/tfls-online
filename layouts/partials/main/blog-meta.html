@@ -1,0 +1,15 @@
+<p>
+  <small class="text-secondary">
+    {{ with index (.GetTerms "categories") 0 }}
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tag" width="24" height="24" viewBox="0 0 448 512"><path fill="currentcolor" d="M48 32H197.5c17 0 33.2 6.74 45.2 18.75l176 175.95c25 25 25 65.6.0 90.6L285.3 450.7c-25 25-65.6 25-90.6.0L18.75 274.7C6.743 262.7.0 246.5.0 229.5V80C0 53.49 21.49 32 48 32zm64 144c17.7.0 32-14.3 32-32 0-17.7-14.3-32-32-32-17.67.0-32 14.3-32 32s14.33 32 32 32z"></path></svg>
+        <a href="{{ .RelPermalink }}" class="text-muted">{{ .LinkTitle }}</a>
+      <span class="px-1">&middot;</span>
+    {{ end }}
+    {{- time.Format (default ":date_long" .Site.Params.dateFormat) .PublishDate -}}
+    {{- /* NOTE: classes 'stretched-link position-relative' are necessary to properly display the title attribute on hover */ -}}
+    <span class="px-1">&middot;</span>
+    {{/* trim subsequent whitespace */ -}}
+      {{ .Params.Author }}
+    </span>{{/* trim subsequent whitespace */ -}}
+  </small>
+</p>
