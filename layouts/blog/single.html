@@ -56,14 +56,14 @@
     <section class="section section-related container">
       <div class="row justify-content-center">
         <div class="col-md-12 col-lg-9">
-          <h2 class="section-title text-center">Related posts</h2>
+          <h2 class="section-title text-center">相关文章</h2>
         </div>
       </div>
       <div class="row justify-content-center">
         <div class="col-lg-9">
           {{ range . -}}
             <div class="card">
-              <div class="card-body">
+              <div class="card-body text-center">
                 <article>
                   <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
                   <p>{{ .Params.summary | safeHTML }}</p>
