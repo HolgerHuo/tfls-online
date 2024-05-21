@@ -13,7 +13,16 @@
     "weight": 104
 }
 
-![](https://cdn.tfls.online/mirror/full/df4d1107bd8d3f2af86ee2e6a845afd1881cdddb.jpg)
+
+<img
+    src="https://cdn.tfls.online/mirror/full/bd8acd32b678dc70193baf641fc7f82572a5c454.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="400"
+    width="600"
+/>
 
 
 
@@ -28,7 +37,16 @@ Ms.Zhu Liping, member of the Tianjin Municipal Standing Committee of the CPC, an
 
 
 
-![](https://cdn.tfls.online/mirror/full/647344c13dc2083956451a481f23d3eb930bf098.jpg)
+
+<img
+    src="https://cdn.tfls.online/mirror/full/1d91935f8bfcfd87ed24fc8399b34c025663a9c2.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="400"
+    width="600"
+/>
 
 
 
@@ -43,7 +61,16 @@ Deputy Chairman and Head of the Municipal Education Bureau, our almni Mr. Li Yal
 
 
 
-![](https://cdn.tfls.online/mirror/full/b75349739dfea22c2ba12382f82debe468dd76e3.jpg)
+
+<img
+    src="https://cdn.tfls.online/mirror/full/491fae909c7f31bf4e883f6ec7c0737520b47501.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="397"
+    width="600"
+/>
 
 
 
@@ -58,7 +85,16 @@ Honorable leaders and  guests in the School History Museum 
 
 
 
-![](https://cdn.tfls.online/mirror/full/479e47b988bea4ae74ddbb5236eb1ec299cb4c6f.jpg)
+
+<img
+    src="https://cdn.tfls.online/mirror/full/d34136a3dd7a242f81357548002996b117ea4e90.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="425"
+    width="600"
+/>
 
 
 
@@ -70,7 +106,15 @@ Dai Xianglong,Mayor of Tianjin,Zhang Junfang,Vice Mayor,came to TFLS to give ins
 
 
 
-**![](https://cdn.tfls.online/mirror/full/9281513a756c15feaf1e09f55a5c268fe05570a4.jpg)**
+**<img
+    src="https://cdn.tfls.online/mirror/full/1018e22fd35be62237e0f1190ebae39fd6e85324.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="418"
+    width="600"
+/>**
 
 
 
@@ -82,7 +126,15 @@ Liu Shengyu,Dean of Tianjin People`s Congress and former Vice Secretary of Tianj
 
 
 
-**![](https://cdn.tfls.online/mirror/full/f1b8f5c693600f89fe4c3364c457d16639314613.jpg)**
+**<img
+    src="https://cdn.tfls.online/mirror/full/b71b2ccaeb1f213d367b806c39f4201a0ebe7e43.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="411"
+    width="600"
+/>**
 
 
 
@@ -94,7 +146,15 @@ Liu Shengyu,Dean of Tianjin People`s Congress and former Vice Secretary of Tianj
 
 
 
-**![](https://cdn.tfls.online/mirror/full/2f5b3bf84bfd027a447dbee6a16a252c7fa695e8.jpg)**
+**<img
+    src="https://cdn.tfls.online/mirror/full/7914e90dde12532ccb16f12e2b6e5eca743294b2.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="450"
+    width="600"
+/>**
 
 
 
@@ -106,7 +166,15 @@ Liu Shengyu,Dean of Tianjin People`s Congress and former Vice Secretary of Tianj
 
 
 
-**![](https://cdn.tfls.online/mirror/full/e2428025db6835b1cc9fbd8a5500d7741900a25b.jpg)**
+**<img
+    src="https://cdn.tfls.online/mirror/full/41847d1c0499d3d35225d37eee402a129e641922.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="450"
+    width="600"
+/>**
 
 
 
@@ -118,7 +186,15 @@ Liu Shengyu,Dean of Tianjin People`s Congress and former Vice Secretary of Tianj
 
 
 
-**![](https://cdn.tfls.online/mirror/full/3852fce6909554c47a567c1847fad994bb041eaa.jpg)**
+**<img
+    src="https://cdn.tfls.online/mirror/full/bfc85efb4145127d5a3ef74fa16eee08141be2b1.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="411"
+    width="600"
+/>**
 
 
 
@@ -130,7 +206,15 @@ Liu Shengyu,Dean of Tianjin People`s Congress and former Vice Secretary of Tianj
 
 
 
-**![](https://cdn.tfls.online/mirror/full/3db823e2dcca62b7a6b07b3e94dc5de2783c8276.jpg)**
+**<img
+    src="https://cdn.tfls.online/mirror/full/a142307611f1ff4fa75f1fc32377b93d904b8917.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="490"
+    width="600"
+/>**
 
 
 
@@ -142,7 +226,15 @@ Liu Shengyu,Dean of Tianjin People`s Congress and former Vice Secretary of Tianj
 
 
 
-**![](https://cdn.tfls.online/mirror/full/a14428a40bad4b75d3c9dda269202ada80f73769.jpg)**
+**<img
+    src="https://cdn.tfls.online/mirror/full/170b98772c3bd76443f752500c74c476e215b380.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="450"
+    width="600"
+/>**
 
 
 
@@ -154,7 +246,15 @@ Liu Shengyu,Dean of Tianjin People`s Congress and former Vice Secretary of Tianj
 
 
 
-**![](https://cdn.tfls.online/mirror/full/a59b2cac3980364073eaca11be0bf0a688cb4ee2.jpg)**
+**<img
+    src="https://cdn.tfls.online/mirror/full/1bdf123a179ffbc93c974a1ee0585ace69b7ab20.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="450"
+    width="600"
+/>**
 
 
 
@@ -166,7 +266,15 @@ Liu Shengyu,Dean of Tianjin People`s Congress and former Vice Secretary of Tianj
 
 
 
-**![](https://cdn.tfls.online/mirror/full/fccdee3429a5200a6d8e5cfcd4b87ea4b30b01a2.jpg)**
+**<img
+    src="https://cdn.tfls.online/mirror/full/d511870cb5d0b9f253c586a3e6b2c3cac206e820.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="450"
+    width="600"
+/>**
 
 
 
@@ -178,7 +286,15 @@ Liu Shengyu,Dean of Tianjin People`s Congress and former Vice Secretary of Tianj
 
 
 
-**![](https://cdn.tfls.online/mirror/full/2bf340291715ef0a3661809382ab0a8f07ff7f3f.jpg)**
+**<img
+    src="https://cdn.tfls.online/mirror/full/6bf78b36122a56c236944e42061f285413244d8c.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="450"
+    width="600"
+/>**
 
 
 
@@ -190,7 +306,15 @@ Liu Shengyu,Dean of Tianjin People`s Congress and former Vice Secretary of Tianj
 
 
 
-**![](https://cdn.tfls.online/mirror/full/4b9caa79c64c4faa3f4b644cdde23d073c602bae.jpg)**
+**<img
+    src="https://cdn.tfls.online/mirror/full/b76617d05db9c0e6b8528393d3c1b5289ae2687d.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="449"
+    width="600"
+/>**
 
 
 
@@ -202,7 +326,15 @@ Liu Shengyu,Dean of Tianjin People`s Congress and former Vice Secretary of Tianj
 
 
 
-**![](https://cdn.tfls.online/mirror/full/26f2dd11b1f443f04f10c1ce9f076469e72565b4.jpg)**
+**<img
+    src="https://cdn.tfls.online/mirror/full/0423592d38aa08817a8f067a65bbf4e1785fdc66.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="450"
+    width="600"
+/>**
 
 
 
@@ -214,7 +346,15 @@ Liu Shengyu,Dean of Tianjin People`s Congress and former Vice Secretary of Tianj
 
 
 
-**![](https://cdn.tfls.online/mirror/full/80285d7e0b6428cff87b8a3b53ed970b923b7991.jpg)**
+**<img
+    src="https://cdn.tfls.online/mirror/full/08f5ddff8f9f2f23727f4b0298835f1c5ec60029.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="450"
+    width="600"
+/>**
 
 
 
@@ -226,7 +366,15 @@ Liu Shengyu,Dean of Tianjin People`s Congress and former Vice Secretary of Tianj
 
 
 
-**![](https://cdn.tfls.online/mirror/full/304d2201544300782694683022a5db57c73cbe31.jpg)**
+**<img
+    src="https://cdn.tfls.online/mirror/full/d787d273013620ef5b201074185e6e97416f7622.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="450"
+    width="600"
+/>**
 
 
 

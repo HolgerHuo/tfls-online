@@ -13,7 +13,16 @@
     "weight": 208
 }
 
-![](https://cdn.tfls.online/mirror/full/74bca3f60d9695956bf5d41b21bef19b1e493c1e.jpg)
+
+<img
+    src="https://cdn.tfls.online/mirror/full/3ef3f5beb03cf4ea14cb1f64de630b512c3a777b.jpg"
+    style="display:block;margin-left:auto;margin-right:auto;"
+    decoding="async"
+    fetchpriority="auto"
+    loading="lazy"
+    height="397"
+    width="600"
+/>
 
 
 
