@@ -7,7 +7,8 @@
     },
     "slug": "about",
     "title": "关于TFLS Online",
-    "toc": true
+    "toc": true,
+    "aliases": ["/more/"]
 }
 
 {{< callout context="caution" title="敬告" icon="outline/alert-triangle" >}}
