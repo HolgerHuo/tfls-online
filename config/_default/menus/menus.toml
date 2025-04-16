@@ -119,6 +119,13 @@
   #post = "v0.1.0"
   weight = 30
 
+[[social]]
+  name = "Git"
+  pre = '<svg viewBox="0 0 212 212" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-forgejo" width="35" height="24"><g transform="translate(-70,10)"><path stroke-width="25" fill="none" stroke="#ff6600" d="m58 168v-98a50 50 0 0 1 50-50h20"/><path stroke-width="25" fill="none" stroke="#d40000" d="m58 168v-30a50 50 0 0 1 50-50h20"/><path stroke-width="15" fill="none" stroke="#ff6600" cx="142" cy="20" r="18"/><path stroke-width="15" fill="none" stroke="#d40000" cx="142" cy="88" r="18"/><path stroke-width="15" fill="none" stroke="#d40000" cx="58" cy="180" r="18"/></g></svg>'
+  url = "https://code.dragoncloud.win/TFLSOnline"
+  #post = "v0.1.0"
+  weight = 40
+
 [[footer]]
   name = "关于TFLS Online"
   url = "https://tfls.online/about"
