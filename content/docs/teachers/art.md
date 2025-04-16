@@ -15,7 +15,7 @@
 
 
 <img
-    src="https://cdn.tfls.online/mirror/full/af3489001c4ad81fba769810b9ce440b8743ec7f.jpg"
+    src="https://cdn.tfls.online/mirror/full/59d3d5ff236ebe3b69841099118b3abe6a2e2274.jpg"
     style="display:block;margin-left:auto;margin-right:auto;"
     decoding="async"
     fetchpriority="auto"
