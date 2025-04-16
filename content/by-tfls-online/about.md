@@ -41,7 +41,7 @@
 
 ### 现状
 
-目前，本项目会通过[TFLS Scraper](https://github.com/HolgerHuo/tfls-scraper)手动爬取官网的大部分文章及图片，镜像至基于[Hugo框架](https://gohugo.io)的全新[TFLS Online主页](https://github.com/holgerhuo/tfls-online)。站点通过[Vercel](https://vercel.com)被部署至Google Cloud边缘节点，图片经过Webp透明转换加速提供访问。
+目前，本项目会通过[TFLS Scraper](https://code.dragoncloud.win/TFLSOnline/tfls-scraper)([GitHub镜像](https://github.com/HolgerHuo/tfls-scraper))手动爬取官网的大部分文章及图片，镜像至基于[Hugo框架](https://gohugo.io)的全新[TFLS Online主页](https://code.dragoncloud.win/TFLSOnline/tfls-online)([GitHub镜像](https://github.com/holgerhuo/tfls-online))。站点通过[Vercel](https://vercel.com))被部署至Google Cloud边缘节点，图片经过Webp透明转换加速提供访问。
 
 项目主要同步了有关[TFLS简介](https://tfls.online/about-tfls/school/summary/)、[原CMS上的文章](https://tfls.online/posts)以及一些其他内容。站点仍在建设中，如有更好的建议，欢迎加入项目共同建设 TFLS Online。
 
@@ -63,7 +63,7 @@ TFLS Online项目团队仅有几人已进行基础的技术开发及服务器维
 - [ ] 初始页面设计
 - [ ] wiki巡回管理员
 
-如果你对以上任务感兴趣，欢迎发送邮件至 [contact+join.us@tfls.online](mailto:contact+join.us@tfls.online) 或直接在以上GitHub仓库中进行PR
+如果你对以上任务感兴趣，欢迎发送邮件至 [contact@tfls.online](mailto:contact@tfls.online) 或直接在以上GitHub仓库中进行PR
 
 ## 结语
 
